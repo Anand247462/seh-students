@@ -105,12 +105,10 @@
 			<id>nexus-snapshots</id>
 			<url>http://192.168.18.11:8081/repository/maven-snapshots/</url>
 		</snapshotRepository>
+    	<snapshotRepository>
+        	<id>snapshots</id>
+        	<name>mt-frontend-ep-seh-snapshots-snapshots</name>
+       	 	<url>https://trials6kpu7.jfrog.io/artifactory/seh-snapshots</url>
+   		 </snapshotRepository>
 	</distributionManagement>
-	<distributionManagement>
-    <snapshotRepository>
-        <id>snapshots</id>
-        <name>mt-frontend-ep-seh-snapshots-snapshots</name>
-        <url>https://trials6kpu7.jfrog.io/artifactory/seh-snapshots</url>
-    </snapshotRepository>
-</distributionManagement>
 </project>
